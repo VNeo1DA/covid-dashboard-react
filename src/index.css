@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #242e42;
+  background-color: #f0f1f6;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+h1 {
+  color: #424656;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.dashboard-container {
+  display: grid;
+  width: 80vw;
+  height: 50vh;
+  grid-template-rows: 0.75fr 5fr 2fr;
+  grid-gap: 10px;
+  margin: auto;
+}
+
+.dashboard-container > * {
+  text-align: center;
+  border-radius: 5px;
+  background: white;
+}
+
+.dashboard-menu {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1em;
+}
+
+.dashboard-menu > .dashboard-select {
+  width: 30%;
+  margin-left: 1rem;
+}
+
+.dashboard-menu > .update-date {
+  margin-right: 2in;
+}
+
+.dashboard-summary {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.summary-card {
+  flex: 1 0 calc(25% - 10px);
+  margin: 5px;
+  color: white;
+  border-radius: 6%;
+  box-shadow: RGBA(17,12,46, 0.15) 0px 48px 100px 0px;
+}
+.summary-card h2 {
+  font-size: 1.7em;
+  padding-top: 5%;
+  animation: fade 2s linear;
+}
+.summary-card p {
+  font-size: calc(100% + 1.05vw);
+}
+.summary-card:nth-child(1) {
+  background-color: RGB(178,34,34);
+  opacity: 90%;
+}
+.summary-card:nth-child(2) {
+  background-color: RGB(30,144,255);
+}
+
+.summary-card:nth-child(3) {
+  background-color: RGB(122,128,144);
+}
+.summary-card:nth-child(4) {
+  background-color: RGB(42,132,120);
+}
+
+/*Tablet and small laptop viewport */
+@media (max-width: 1046px) {
+
+  .summary-card {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+
+/*mobile-viewport*/
+@media (max-width: 768px) {
+
+  .dashboard-menu {
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .dashboard-menu > .dashboard-select {
+    width: 60%;
+    margin-left: 0;
+  }
+  .dashboard-container {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .dashboard-menu {
+    flex-direction: column;
+  }
+
+  .dashboard-summary {
+    flex-direction: column;
+  }
+
+  .summary-card {
+    border-radius: 0;
+  }
+}

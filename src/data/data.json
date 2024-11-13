@@ -1,0 +1,66 @@
+{
+    "EC": {
+      "label": "Eastern Cape",
+      "totalCases": 10000,
+      "totalTests": 150000,
+      "totalDeaths": 155,
+      "totalVaccinated": 75000
+    },
+    "FS": {
+      "label": "Free State",
+      "totalCases": 8000,
+      "totalTests": 120000,
+      "totalDeaths": 120,
+      "totalVaccinated": 60000
+    },
+    "GP": {
+      "label": "Gauteng",
+      "totalCases": 50000,
+      "totalTests": 800000,
+      "totalDeaths": 800,
+      "totalVaccinated": 400000
+    },
+    "KZN": {
+      "label": "KwaZulu-Natal",
+      "totalCases": 10000,
+      "totalTests": 250000,
+      "totalDeaths": 200,
+      "totalVaccinated": 150000
+    },
+    "LP": {
+      "label": "Limpopo Province",
+      "totalCases": 120,
+      "totalTests": 30000,
+      "totalDeaths": 25,
+      "totalVaccinated": 18000
+    },
+    "MP": {
+      "label": "Mpumalanga",
+      "totalCases": 50,
+      "totalTests": 5000,
+      "totalDeaths": 5,
+      "totalVaccinated": 2000
+    },
+    "NC": {
+      "label": "Northern Cape",
+      "totalCases": 2000,
+      "totalTests": 35000,
+      "totalDeaths": 30,
+      "totalVaccinated": 12000
+    },
+    "NW": {
+      "label": "Northern West",
+      "totalCases": 100,
+      "totalTests": 10000,
+      "totalDeaths": 2,
+      "totalVaccinated": 5000
+    },
+    "WC": {
+      "label": "Western Cape",
+      "totalCases": 205,
+      "totalTests": 15000,
+      "totalDeaths": 6,
+      "totalVaccinated": 5500
+    }
+  }
+  
